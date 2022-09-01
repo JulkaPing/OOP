@@ -3,7 +3,9 @@ package secure;
 import java.util.Arrays;
 
 public class SslSecure {
-
+    /**
+     * привет
+     */
     private final String DOMAIN = ".com";
     private final int DOMAIN_LENGTH = DOMAIN.length();
     private final String PROTOCOL = "http";
@@ -14,7 +16,7 @@ public class SslSecure {
             int count = (urls[i].indexOf(DOMAIN));
             urls[i] = (urls[i].substring(0, count + DOMAIN_LENGTH + 1)).toString();
         }
-        return urls;
+        return urls;//привет
     }
 
 }
