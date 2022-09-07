@@ -9,7 +9,6 @@ public class CsvFormatter {
     private final String DELIMITER_KEY_VALUE = "=";
     private final int LIMIT = 2;
 
-
     public Person[] getPersonsFromCsvFile(String csvString) {
         String[] myArray = csvString.split(DELIMITER_PERSONS);
         Person[] result = new Person[myArray.length];

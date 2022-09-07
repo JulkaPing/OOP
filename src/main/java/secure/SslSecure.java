@@ -14,5 +14,4 @@ public class SslSecure {
         }
         return urls;
     }
-
 }
