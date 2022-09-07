@@ -1,19 +1,21 @@
 package service;
 
-import java.util.Arrays;
+public class Service  {
 
-public class Service {
+    final String SPACE_DELIMITER = " ";
 
-    private final String SPACE_DELIMITER = " ";
+    private Store store;
 
-    private MemRepository memRepository;
+    public Service(Store store) {
+        this.store = store;
+    }
 
-    public Service(MemRepository memRepository) {
-        this.memRepository = memRepository;
+    public void findAll() {
+        store.findAll();
     }
 
     public void getOnlyName() {
-        for (String string : memRepository.findAll()) {
+        for (String string : store.findAll()) {
             System.out.println(string.split(SPACE_DELIMITER)[0]);
         }
     }

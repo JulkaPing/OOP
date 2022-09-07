@@ -10,7 +10,6 @@ public class ArrayFunctionallyService {
         for (int i = 1; i < numbers.length - 1; i++) {
             sumBetweenFirstAndLast = sumBetweenFirstAndLast + numbers[i];
         }
-
         return new ArrayDetail<>(firstElement, lastElement, sumBetweenFirstAndLast);
     }
 
@@ -20,7 +19,6 @@ public class ArrayFunctionallyService {
         for (int i = start; i < end + 1; i++) {
             sumBetweenFirstAndLast = sumBetweenFirstAndLast + numbers[i];
         }
-
         return sumBetweenFirstAndLast;
     }
 }

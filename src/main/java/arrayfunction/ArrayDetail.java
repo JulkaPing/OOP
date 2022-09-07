@@ -3,9 +3,7 @@ package arrayfunction;
 public class ArrayDetail<I extends Number> {
 
     private int firstElement;
-
     private int lastElement;
-
     private int sumBetweenFirstAndLast;
 
     public ArrayDetail(int firstElement, int lastElement, int sumBetweenFirstAndLast) {
@@ -13,7 +11,6 @@ public class ArrayDetail<I extends Number> {
         this.lastElement = lastElement;
         this.sumBetweenFirstAndLast = sumBetweenFirstAndLast;
     }
-
 
     public int getFirstElement() {
         return firstElement;
