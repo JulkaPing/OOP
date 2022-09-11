@@ -19,7 +19,6 @@ public class CsvFormatter {
             result[i] = new Person(name[1], lastname[1]);
         }
 
-        System.out.println();
         return result;
     }
 }
