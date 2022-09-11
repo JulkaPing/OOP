@@ -1,6 +1,6 @@
 package fly;
 
-public class Bird implements Flyable {
+public class Bird implements Flyable, Eatable {
 
     @Override
     public void isFlying() {

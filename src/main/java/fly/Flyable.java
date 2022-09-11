@@ -5,7 +5,5 @@ public interface Flyable {
         System.out.println("Flying");
     }
 
-    public default void isEating() {
-        System.out.println("Eating");
-    }
+
 }
