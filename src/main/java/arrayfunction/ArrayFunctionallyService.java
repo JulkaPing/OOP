@@ -1,7 +1,5 @@
 package arrayfunction;
 
-import java.sql.Array;
-
 public class ArrayFunctionallyService {
     public ArrayDetail getArrayByCriteria(int[] numbers) {
         int firstElement = numbers[0];
