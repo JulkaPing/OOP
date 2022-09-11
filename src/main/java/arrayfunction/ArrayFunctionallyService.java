@@ -11,7 +11,6 @@ public class ArrayFunctionallyService {
         return new ArrayDetail (firstElement, lastElement, sumBetweenFirstAndLast);
     }
 
-
     public int getSumNumbersBetweenIndex(int[] numbers, int start, int end) {
         int sumBetweenFirstAndLast = 0;
 
